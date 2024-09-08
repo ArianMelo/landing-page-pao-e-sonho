@@ -1,0 +1,154 @@
+.main .container .content-1{
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../img/padaria-1.png);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  border-bottom: 1px solid #ccc;
+  padding-top: 20vh;
+  color: #f1f1f1;
+}
+
+.main .container .content-1 h2{
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.main .container .content-1 p{
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main .container .content-2{
+  height: 35vh;
+  border-bottom: 1px solid #ccc;
+  padding-top: 8vh;
+}
+
+.main .container .content-2 h2{
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 300;
+}
+
+.main .container .content-2 p{
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.main .container.container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background: blue;
+}
+
+.main .container.container-3 .content-3 {
+  display: block;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../img/pao-1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.main .container.container-3 .content-4 {
+  display: block;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../img/salgados-1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.main .container.container-3 .content-3, .main .container.container-3 .content-4 {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.main .container.container-3 .content-3 h2, 
+.main .container.container-3 .content-4 h2 {
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main .container.container-3 .content-3 a, .main .container.container-3 .content-4 a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main .container.container-3 .content-3 a:hover, .main .container.container-3 .content-4 a:hover {
+  text-decoration: underline;
+}
+
+.main .container .content-5 {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10vh 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.main .container .content-5 h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.main .container .content-5 p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.main .container .content-6{
+  background: #2a2a2a;
+  width: 100%;
+}
+
+.main .container .content-6 h2 {
+  color: #f1f1f1;
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.main .container .content-6 .map {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.main .container .content-6 .map iframe {
+  border: 0;
+  height: 400px;
+  width: 80%;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 628px) {
+
+  /* MAIN CONTAINER-3 */
+
+  .main .container.container-3 {
+    flex-direction: row;
+  }
+
+  
+}

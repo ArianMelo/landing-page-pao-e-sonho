@@ -1,0 +1,32 @@
+.header{
+  width: 100%;
+}
+
+.header .container{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/padaria-header.png);
+  background-position: center;
+  background-size: cover;
+  color: #f1f1f1;
+}
+
+/* LOGO E SUBTITULO */
+
+.header .container .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.header .container .content h1{
+  font-size: 40px;
+  line-height: 50px;
+  padding: 40px 20px;
+}
+
+.header .container .content p{
+  text-transform: uppercase;
+}
