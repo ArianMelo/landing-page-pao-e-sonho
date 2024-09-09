@@ -3,7 +3,7 @@
 }
 
 .header .container{
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/padaria-header.png);
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/padaria-header.png);
   background-position: center;
   background-size: cover;
   color: #f1f1f1;

@@ -1,5 +1,14 @@
+
+#conSel1 {
+  display: block;
+}
+
+#conSel2, #conSel3 {
+  display: none;
+}
+
 .main .container .content-1{
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../img/padaria-1.png);
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../img/padaria-1.png);
   background-position: center;
   background-size: cover;
   height: 70vh;
@@ -59,7 +68,7 @@
 .main .container.container-3 .content-3 {
   display: block;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../img/pao-1.png);
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../img/pao-1.png);
   background-position: center;
   background-size: cover;
 }
@@ -67,7 +76,7 @@
 .main .container.container-3 .content-4 {
   display: block;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../img/salgados-1.png);
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../img/salgados-1.png);
   background-position: center;
   background-size: cover;
 }
@@ -138,8 +147,30 @@
 .main .container .content-6 .map iframe {
   border: 0;
   height: 400px;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
+}
+
+.main .container .content-7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(255, 240, 211, 0.9), rgba(255, 240, 211, 0.9)), url(../img/bg-padaria.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+  padding: 80px 4vh;
+  text-align: left;
+  color: #2a2a2a;
+}
+
+.main .container .content-7 h2{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 628px) {
@@ -150,5 +181,16 @@
     flex-direction: row;
   }
 
+  .main .container .content-6 .map iframe {
+    width: 80%;
+    
+  }
   
+  .main .container .content-7{
+    padding: 80px 14vh 100px;
+    text-align: left;
+    color: #2a2a2a;
+  }
+  
+
 }
